@@ -8,7 +8,7 @@ export const experiences = [
   {
     id: 3,
     title: "Web developer lead",
-    company: "Help human rights organizaion",
+    company: "Help human rights organization",
     duration: "(May 2024 - Aug 2024)"
   },
   {
