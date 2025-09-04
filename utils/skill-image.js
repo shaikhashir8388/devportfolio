@@ -71,7 +71,9 @@ import vue from '/public/svg/skills/vue.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-import nodejs from '../public/svg/skills/nodejs.svg';  // Correct import for Node.js
+import nodejs from '../public/svg/skills/nodejs.svg';
+import nestjs from '../public/svg/skills/nestjs.svg';
+  // Correct import for Node.js
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -226,6 +228,8 @@ export const skillsImage = (skill) => {
       return canva;
     case 'nodejs':
       return nodejs;  // Correct mapping for Node.js
+    case 'nest js':
+      return nestjs;  // Added Nest.js case
     default:
       break;
   }

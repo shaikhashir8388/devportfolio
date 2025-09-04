@@ -1,21 +1,21 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Mern stack developer',
-    company: "Qf Network",
+    title: 'Software Engineer - (Remote) ',
+    company: "eSanad - (UAE) ",
     duration: "( Sep 2024 - Present)"
   },
   {
     id: 2,
-    title: "Next js developer",
-    company: "Coderatory",
-    duration: "(Sep 2023 - April 2024)"
+    title: "MERN Stack Developer",
+    company: "Qf Network - (Karachi, Pakistan)",
+    duration: "(Sep 2024 - March 2025)"
   },
   {
     id: 3,
-    title: "Web developer",
-    company: "Precise Tech (Remote intern)",
-    duration: "(Jan 2023 - Present)"
+    title: "Next js Developer",
+    company: "Coderatory - (Karachi, Pakistan)",
+    duration: "(Nov 2023 - August 2024)"
   }
   
   
