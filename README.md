@@ -1,155 +1,194 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/shaikhashir8388">
-</p>
+# 🚀 M Ashir Shaikh - Developer Portfolio
 
----
-# [Built Portfolio With GitHub ](https://github.com/shaikhashir8388)
+A modern, responsive portfolio website showcasing the work and skills of M Ashir Shaikh, a passionate Web Developer specializing in JavaScript and full-stack development.
 
----
+## 🌐 Live Demo
 
-# Developer Portfolio
+**[View Live Portfolio](https://shaikhashir.netlify.app/)**
 
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+## 👨‍💻 About
 
----
+I'm M Ashir Shaikh, a professional and enthusiastic programmer with a passion for web development. I'm a quick learner with a self-learning attitude who loves to explore new technologies and solve complex problems. My expertise lies in JavaScript and I enjoy building applications that make the web more accessible to everyone.
 
-# Demo :movie_camera:
+## ✨ Features
 
-![](./public/image/screen.png)
+- **Responsive Design**: Fully responsive across all devices
+- **Modern UI/UX**: Clean and professional design with smooth animations
+- **Interactive Sections**:
+  - Hero section with animated elements
+  - About section with personal introduction
+  - Skills showcase with technology icons
+  - Project portfolio with detailed descriptions
+  - Work experience timeline
+  - Education background
+  - Contact form with email integration
+  - Blog section for sharing knowledge
+- **Dark/Light Theme Support**
+- **SEO Optimized**
+- **Fast Loading**: Optimized performance with Next.js
 
-## View live preview [here](https://abusaid.netlify.app/).
+## 🛠️ Tech Stack
 
----
+### Frontend
+- **Next.js 14** - React framework for production
+- **React 18** - JavaScript library for building user interfaces
+- **Tailwind CSS** - Utility-first CSS framework
+- **Sass** - CSS preprocessor
+- **Lottie React** - For animations
+- **React Icons** - Icon library
 
-## Table of Contents :scroll:
+### Backend & Services
+- **Next.js API Routes** - Server-side functionality
+- **EmailJS** - Email service integration
+- **Google reCAPTCHA** - Spam protection
+- **Axios** - HTTP client
 
-- [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Packages Used](#packages-used-package)
+### Development Tools
+- **ESLint** - Code linting
+- **PostCSS** - CSS processing
+- **Autoprefixer** - CSS vendor prefixes
 
----
+## 🎯 Key Projects Featured
 
-# Sections :bookmark:
+### 1. Khelao - Street Cricket Platform
+- **Tech Stack**: Next.js, Tailwind CSS, Node.js, Express, MongoDB
+- **Role**: Frontend & Backend Developer
+- A comprehensive web application for street cricket enthusiasts with team creation and player registration features.
 
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
-- SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
+### 2. Admin Dashboard
+- **Tech Stack**: Next.js, Tailwind CSS, MongoDB
+- **Role**: Full Stack Developer
+- Feature-rich eCommerce dashboard with analytics, payment tracking, and data visualization.
 
----
+### 3. Movie Application
+- **Tech Stack**: Next.js, Tailwind CSS, MongoDB, Netflix API
+- **Role**: Full Stack Developer
+- Dynamic movie browsing application with API integration and user interaction features.
 
-# Installation :arrow_down:
+### 4. E-Commerce Web Application
+- **Tech Stack**: Next.js, Tailwind CSS, MongoDB
+- **Role**: Full Stack Developer
+- Complete e-commerce solution with shopping cart, categories, and order management.
 
-### You will need to download Git and Node to run this project
+## 🚀 Getting Started
 
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-#### Make sure you have the latest version of both Git and Node on your computer.
+### Installation
 
-```
-node --version
-git --version
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/shaikhashir8388/developer-portfolio.git
+   cd developer-portfolio
+   ```
 
-## <br />
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-# Getting Started :dart:
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-### Fork and Clone the repo
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the portfolio.
 
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
-
-cd developer-portfolio
-```
-
-### Install packages from the root directory
+### Build for Production
 
 ```bash
-npm install
-# or
-yarn install
+npm run build
+npm run start
 ```
 
-Then, run the development server:
+## 📁 Project Structure
 
-```bash
-npm run dev
-# or
-yarn dev
+```
+developer-portfolio/
+├── app/
+│   ├── components/
+│   │   ├── homepage/
+│   │   │   ├── about/
+│   │   │   ├── blog/
+│   │   │   ├── contact/
+│   │   │   ├── education/
+│   │   │   ├── experience/
+│   │   │   ├── hero-section/
+│   │   │   ├── projects/
+│   │   │   └── skills/
+│   │   ├── helper/
+│   │   ├── footer.jsx
+│   │   └── navbar.jsx
+│   ├── api/
+│   ├── blog/
+│   ├── css/
+│   └── layout.js
+├── public/
+│   ├── image/
+│   ├── lottie/
+│   └── svg/
+├── utils/
+│   └── data/
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
----
-
-# Usage :joystick:
-
-Goto [emailjs.com](https://www.emailjs.com/) and create a new account for the mail sending. In free trial you will get 200 mail per month. After setup `emailjs` account, Please create a new `.env` file from `.env.example` file.
-
-Eg:
-
-```env
-NEXT_PUBLIC_EMAILJS_SERVICE_ID =
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID =
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
-NEXT_PUBLIC_GTM = # For site analytics
-NEXT_PUBLIC_APP_URL = "http://127.0.0.1:3000"
-NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
-NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
-```
-
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
-
-Eg:
-
+### Personal Information
+Update your personal details in `utils/data/personal-data.js`:
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
-  profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
-};
+  name: "M Ashir shaikh",
+  designation: "Software Engineer",
+  description: "I'm Ashir Shaikh, a Software Engineer with 2 years of experience 
+in full-stack development, specializing in Next.js, React.js, 
+Node.js, Nest.js, MongoDB, and MySQL. I excel in building 
+responsive user interfaces and integrating scalable back-end 
+functionality to deliver seamless web applications. With expertise 
+in API design and databases, I effectively address both front-end 
+and back-end challenges.",
+  email: 'shaikhashir871@gmail.com',
+  // ... other details
+}
 ```
 
-`devUsername` Used for fetching blog from `dev.to`.
+## 🌟 Skills & Technologies
+
+- **Frontend**: HTML, CSS, JavaScript, TypeScript, React, Next.js
+- **Styling**: Tailwind CSS, Bootstrap, Sass
+- **Backend**: Node.js, Nest.js
+- **Database**: MongoDB
+- **Tools**: Git, VS Code
+- **Deployment**: Netlify, Vercel
+
+## 📱 Connect With Me
+
+- **Email**: [shaikhashir871@gmail.com](mailto:shaikhashir871@gmail.com)
+- **GitHub**: [shaikhashir8388](https://github.com/shaikhashir8388)
+- **LinkedIn**: [ashir-shaikh-482244245](https://www.linkedin.com/in/ashir-shaikh-482244245/)
+- **Twitter**: [@ashirshaikh19](https://twitter.com/ashirshaikh19)
+- **Stack Overflow**: [ashir](https://stackoverflow.com/users/22179679/ashir)
+
+## 📄 Resume
+
+[Download My Resume](https://drive.google.com/file/d/1w-nPOIoqiPrEG-wlEu3QGRYEToW6QrRM/view?usp=drive_link)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/shaikhashir8388/developer-portfolio/issues).
+
+
+If you like this project, please consider giving it a ⭐ on GitHub!
 
 ---
 
----
+**Built with ❤️ by M Ashir Shaikh**
 
-# Packages Used :package:
-
-| Used Package List  |
-| :----------------: |
-|        next        |
-|  @emailjs/browser  |
-|    lottie-react    |
-| react-fast-marquee |
-|    react-icons     |
-|   react-toastify   |
-|        sass        |
-|    tailwindcss     |
-
----
+*Last updated: September 2025*
