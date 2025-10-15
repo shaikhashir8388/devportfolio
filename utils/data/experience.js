@@ -13,9 +13,9 @@ export const experiences = [
   },
   {
     id: 3,
-    title: "Next js Developer(Intern)",
+    title: "Next js Developer - (Intern)",
     company: "Coderatory - (Karachi, Pakistan)",
-    duration: "(april 2023 - August 2023)"
+    duration: "(April 2023 - August 2023)"
   }
   
   
